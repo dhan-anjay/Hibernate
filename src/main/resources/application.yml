@@ -1,0 +1,12 @@
+#spring.application.name=Hibernate
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3300/hibernate
+    username: root
+    password: Dh@nanjay111
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: mysql
+    show-sql: true
